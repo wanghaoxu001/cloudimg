@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T19:20:58.548Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="8ugTggB7-7LaHMEOHbT2" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T11:55:53.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="i3co9y7LePmmg-kTUAuj" version="20.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2109" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="jyzZ4kDg1ZwlGxl__Olp-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jyzZ4kDg1ZwlGxl__Olp-10" target="jyzZ4kDg1ZwlGxl__Olp-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jyzZ4kDg1ZwlGxl__Olp-10" value="函数蒸馏器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jyzZ4kDg1ZwlGxl__Olp-10" value="函数蒸馏模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="670" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jyzZ4kDg1ZwlGxl__Olp-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jyzZ4kDg1ZwlGxl__Olp-12" target="jyzZ4kDg1ZwlGxl__Olp-22">
@@ -131,7 +131,7 @@
         <mxCell id="jyzZ4kDg1ZwlGxl__Olp-55" value="注册相似计算器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DBDBDB;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jyzZ4kDg1ZwlGxl__Olp-60" value="相似计算器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jyzZ4kDg1ZwlGxl__Olp-60" value="相似计算模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
