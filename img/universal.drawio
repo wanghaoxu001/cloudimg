@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T06:05:07.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.18" etag="UHC_Wvla8zf4RTfuYigI" type="github"><diagram name="第 1 页" id="8IOEDLNl9-CcmWnX29gc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-09T06:24:47.342Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dqrm3vwB5aaW8_f94BKN" version="20.8.18" type="github">
+  <diagram name="第 1 页" id="8IOEDLNl9-CcmWnX29gc">
+    <mxGraphModel dx="954" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EiXXHam4Ujt1AHEFTAQg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiXXHam4Ujt1AHEFTAQg-1" target="EiXXHam4Ujt1AHEFTAQg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiXXHam4Ujt1AHEFTAQg-8" value="预处理" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="EiXXHam4Ujt1AHEFTAQg-5">
+          <mxGeometry x="-0.1556" y="1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EiXXHam4Ujt1AHEFTAQg-1" value="源代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiXXHam4Ujt1AHEFTAQg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiXXHam4Ujt1AHEFTAQg-2" target="EiXXHam4Ujt1AHEFTAQg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiXXHam4Ujt1AHEFTAQg-9" value="转换" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="EiXXHam4Ujt1AHEFTAQg-6">
+          <mxGeometry x="-0.0222" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EiXXHam4Ujt1AHEFTAQg-2" value="代码单元&lt;br&gt;（类、函数、块）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiXXHam4Ujt1AHEFTAQg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiXXHam4Ujt1AHEFTAQg-3" target="EiXXHam4Ujt1AHEFTAQg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiXXHam4Ujt1AHEFTAQg-10" value="匹配" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=13;horizontal=1;" vertex="1" connectable="0" parent="EiXXHam4Ujt1AHEFTAQg-7">
+          <mxGeometry x="-0.0667" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EiXXHam4Ujt1AHEFTAQg-3" value="中间表示&lt;br&gt;（token、AST、PDG）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiXXHam4Ujt1AHEFTAQg-4" value="克隆对" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
