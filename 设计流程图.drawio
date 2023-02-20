@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T05:54:58.541Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OFSgTzt83nD3gLrSiK-F" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T07:50:19.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4_Z3UvLZ1g1Y6t9yn0UA" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="J6PYQGmqgoXdGIrogREs-5" value="相似度计算" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="480" width="420" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="J6PYQGmqgoXdGIrogREs-4" value="函数指纹生成" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="460" width="320" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="J6PYQGmqgoXdGIrogREs-1" value="规&lt;br&gt;范&lt;br&gt;化&lt;br&gt;处&lt;br&gt;理" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=20;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="760" y="390" width="170" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="J6PYQGmqgoXdGIrogREs-0" value="函数预处理" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="197.5" width="580" height="185" as="geometry" />
+        </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-8" target="AKl1cT7ckRawadSQ2MN6-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -29,29 +41,32 @@
         <mxCell id="AKl1cT7ckRawadSQ2MN6-14" value="信息是否可用" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="610" y="240" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="AKl1cT7ckRawadSQ2MN6-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-20" target="AKl1cT7ckRawadSQ2MN6-72" edge="1">
+        <mxCell id="J6PYQGmqgoXdGIrogREs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-20" target="AKl1cT7ckRawadSQ2MN6-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6PYQGmqgoXdGIrogREs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-20" target="AKl1cT7ckRawadSQ2MN6-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-20" value="规范化函数信息" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="796" y="430" width="88" height="60" as="geometry" />
+          <mxGeometry x="796" y="530" width="88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-24" target="AKl1cT7ckRawadSQ2MN6-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-24" value="函数指纹" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="610" y="610" width="88" height="60" as="geometry" />
+          <mxGeometry x="597.65" y="610" width="88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-26" target="AKl1cT7ckRawadSQ2MN6-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-26" value="函数特征索引" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="610" y="470" width="88" height="60" as="geometry" />
+          <mxGeometry x="597.65" y="470" width="88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-28" target="AKl1cT7ckRawadSQ2MN6-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-28" value="特征指纹库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="450" y="525" width="80" height="90" as="geometry" />
+          <mxGeometry x="437.65" y="525" width="80" height="90" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-31" target="AKl1cT7ckRawadSQ2MN6-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -70,21 +85,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-31" value="比对任务？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="317.65" y="520" width="100" height="100" as="geometry" />
+          <mxGeometry x="297.65" y="520" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-38" target="AKl1cT7ckRawadSQ2MN6-99" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-38" value="相似计算" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="540" width="100" height="60" as="geometry" />
+          <mxGeometry x="150" y="540" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-52" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="317.65" y="670" width="100" height="60" as="geometry" />
+          <mxGeometry x="297.65" y="670" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-55" target="AKl1cT7ckRawadSQ2MN6-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AKl1cT7ckRawadSQ2MN6-55" value="函数预处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="AKl1cT7ckRawadSQ2MN6-55" value="函数提取" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="317.65" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-58" value="丢弃" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -94,22 +109,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-60" value="规范化处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="780" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="780" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7Sq2ESaaCZIxyWRSnT8O-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-69" target="7Sq2ESaaCZIxyWRSnT8O-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-69" value="输入代码仓库" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="20" y="260" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AKl1cT7ckRawadSQ2MN6-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-72" target="AKl1cT7ckRawadSQ2MN6-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="AKl1cT7ckRawadSQ2MN6-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AKl1cT7ckRawadSQ2MN6-72" target="AKl1cT7ckRawadSQ2MN6-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="AKl1cT7ckRawadSQ2MN6-72" value="函数指纹生成&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="780" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AKl1cT7ckRawadSQ2MN6-99" value="展示报告" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="540" width="120" height="60" as="geometry" />
@@ -119,6 +125,9 @@
         </mxCell>
         <mxCell id="7Sq2ESaaCZIxyWRSnT8O-0" value="编程语言识别" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6PYQGmqgoXdGIrogREs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J6PYQGmqgoXdGIrogREs-5" target="J6PYQGmqgoXdGIrogREs-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
